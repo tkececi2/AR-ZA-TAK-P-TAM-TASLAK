@@ -1,0 +1,131 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "mekanikBakimlar",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sahaId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "elektrikBakimlar",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sahaId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "arizalar",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "saha",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "olusturmaTarihi",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "kullanicilar",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rol",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ad",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "uretimVerileri",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "santralId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "bildirimler",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "kullaniciId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "uretimVerileri",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "santralId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "__name__",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
